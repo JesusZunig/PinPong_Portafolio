@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin:  0;
+}
+
+canvas{
+	background: #000000;
+	display: block;
+	margin:  0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.texto{
+	text-align: center;
+}
+
+p{
+	font-family: "Arial";
+	color: #02085A;
+}
+
+.texto p:nth-child(1){
+	font-size: 25px;
+}
+
+.texto p:nth-child(2){
+	display: inline-block;
+	text-align: left;
+	padding-right: 200px;
+	font-size: 15px;
+}
+
+.texto p:nth-child(3){
+	display: inline-block;
+	text-align: right;
+	padding-left: 200px;
+	font-size: 15px;
+}
+
+.texto p:nth-child(4){
+	font-size: 15px;
+}
